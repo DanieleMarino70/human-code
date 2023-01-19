@@ -20,11 +20,11 @@ var *lista_bustina*
 - **FINCHE'** (WHILE) *lista_bustina*  diverso da (!=)  0
     - controllo la carta 
     
-        - SE la carta è uguale a *la_carta_rara*
+        - **SE** la carta è uguale a *la_carta_rara*
             - esulto
-        -  SE NON carta è nella lista album
-            - l'attacco all'*lista_album*
-        - ALTRIMENTI 
+        -  **SE** **NOT** carta è nella lista album
+            - l'attacco alla *lista_album*
+        - **ALTRIMENTI** 
             - la inserisco nella *lista_doppioni* 
         
     - tolgo la carta dalla *lista_bustina*
